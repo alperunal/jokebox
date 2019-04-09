@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jokebox renders Jokebox correctly 1`] = `
+<styled.div>
+  <Container>
+    <styled.div>
+      <styled.div>
+        Jokes
+      </styled.div>
+      <styled.div>
+        <styled.button
+          onClick={[Function]}
+          type="button"
+        >
+          <Styled(FontAwesomeIcon)
+            icon="sync"
+          />
+          Refresh Jokes
+        </styled.button>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            Category:
+          </styled.div>
+          <styled.select
+            onChange={[Function]}
+            value="all"
+          >
+            <styled.option
+              value="all"
+            >
+              All
+            </styled.option>
+            <styled.option
+              key="general"
+              value="general"
+            >
+              general
+            </styled.option>
+          </styled.select>
+        </styled.div>
+        <styled.div>
+          <styled.input
+            name="filterInput"
+            onChange={[Function]}
+            placeholder="Filter by keyword"
+            type="text"
+            value=""
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.span
+          key="21"
+          onClick={[Function]}
+        >
+          <Joke
+            favouriteJoke={[Function]}
+            isFavourite={false}
+            joke={
+              Object {
+                "id": 21,
+                "punchline": "'Where is the bar tended?'",
+                "setup": "A termite walks into a bar and says...",
+                "type": "general",
+              }
+            }
+          />
+        </styled.span>
+        <styled.span
+          key="51"
+          onClick={[Function]}
+        >
+          <Joke
+            favouriteJoke={[Function]}
+            isFavourite={false}
+            joke={
+              Object {
+                "id": 51,
+                "punchline": "Yep, people are just dying to get in there",
+                "setup": "When a dad drives past a graveyard: Did you know that's a popular cemetery?",
+                "type": "general",
+              }
+            }
+          />
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </Container>
+</styled.div>
+`;
+
+exports[`Jokebox renders Loading correctly 1`] = `
+<styled.div>
+  <Container>
+    <Loader />
+    <styled.div>
+      <styled.div>
+        Jokes
+      </styled.div>
+      <styled.div>
+        <styled.button
+          onClick={[Function]}
+          type="button"
+        >
+          <Styled(FontAwesomeIcon)
+            icon="sync"
+          />
+          Refresh Jokes
+        </styled.button>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          <styled.div>
+            Category:
+          </styled.div>
+          <styled.select
+            onChange={[Function]}
+            value="all"
+          >
+            <styled.option
+              value="all"
+            >
+              All
+            </styled.option>
+            <styled.option
+              key="general"
+              value="general"
+            >
+              general
+            </styled.option>
+          </styled.select>
+        </styled.div>
+        <styled.div>
+          <styled.input
+            name="filterInput"
+            onChange={[Function]}
+            placeholder="Filter by keyword"
+            type="text"
+            value=""
+          />
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.span
+          key="21"
+          onClick={[Function]}
+        >
+          <Joke
+            favouriteJoke={[Function]}
+            isFavourite={false}
+            joke={
+              Object {
+                "id": 21,
+                "punchline": "'Where is the bar tended?'",
+                "setup": "A termite walks into a bar and says...",
+                "type": "general",
+              }
+            }
+          />
+        </styled.span>
+        <styled.span
+          key="51"
+          onClick={[Function]}
+        >
+          <Joke
+            favouriteJoke={[Function]}
+            isFavourite={false}
+            joke={
+              Object {
+                "id": 51,
+                "punchline": "Yep, people are just dying to get in there",
+                "setup": "When a dad drives past a graveyard: Did you know that's a popular cemetery?",
+                "type": "general",
+              }
+            }
+          />
+        </styled.span>
+      </styled.div>
+    </styled.div>
+  </Container>
+</styled.div>
+`;

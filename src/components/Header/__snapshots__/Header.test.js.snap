@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Header correctly 1`] = `
+<Fragment>
+  <styled.div>
+    <Container>
+      <styled.div>
+        <styled.img
+          alt="JokeBox"
+          src="logo.png"
+        />
+      </styled.div>
+    </Container>
+  </styled.div>
+  <styled.div>
+    <Container>
+      <styled.div>
+        <styled.ul>
+          <styled.li>
+            <Styled(Link)
+              to="/"
+            >
+              Jokes
+            </Styled(Link)>
+          </styled.li>
+          <styled.li>
+            <Styled(Link)
+              to="/favourites"
+            >
+              Favourites
+            </Styled(Link)>
+          </styled.li>
+        </styled.ul>
+      </styled.div>
+    </Container>
+  </styled.div>
+</Fragment>
+`;

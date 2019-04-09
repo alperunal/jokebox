@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Modal correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.span>
+      <styled.img
+        onClick={[Function]}
+        src="close.png"
+      />
+    </styled.span>
+    <styled.div>
+      TEST
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

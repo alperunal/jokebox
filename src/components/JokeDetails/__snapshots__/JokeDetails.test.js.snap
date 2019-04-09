@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JokeDetails renders JokeDetails correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.div>
+      A termite walks into a bar and says...
+    </styled.div>
+    <styled.div>
+      'Where is the bar tended?'
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;
